@@ -71,7 +71,7 @@ int main()
       }
     }
   }
-  printf("The Second largest element is :  %d ", lrg2nd);
+  printf("The Second largest element is :  %d ", l2);
   return 0;
 }*/
 //3 ====================================================================================================
