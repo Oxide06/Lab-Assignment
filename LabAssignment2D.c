@@ -90,7 +90,7 @@ int main() {
         rsum[i] = 0;
         for (j = 0; j < c; j++) 
         {
-            rsum[i] = rsum[i] + arr1[i][j];
+            rsum[i] = rsum[i] + a[i][j];
         }
     }
     for (i = 0; i < r; i++) 
@@ -98,7 +98,7 @@ int main() {
         csum[i] = 0;
         for (j = 0; j < c; j++) 
         {
-            csum[i] = csum[i] + arr1[j][i];
+            csum[i] = csum[i] + a[j][i];
         }
     }
 for (i = 0; i < r; i++)
