@@ -213,9 +213,9 @@ int Sum (int i, int j, int r, int c, int a[10][10], int x,int y)
     return a[i][j];	// condition 3
 
   if (j == 0)
-    return a[i][j] + Sum (i - 1, y, rows, columns, matrix, x, y);
+    return a[i][j] + Sum (i - 1, y, r, c, matrix, x, y);
 
   else
-    return a[i][j] + Sum (i, j - 1, rows, columns, matrix, x, y);
+    return a[i][j] + Sum (i, j - 1, r, c, matrix, x, y);
 
 }*/
