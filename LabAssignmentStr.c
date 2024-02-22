@@ -22,8 +22,9 @@ int main() {
 int main() {
   char s1[100] , s2[100] ;
   int length, j;
-   fgets(str,100,stdin)
-   fgets(str,100,stdin)
+   fgets(s1,100,stdin)
+   fgets(s2,100,stdin)
+   lenght= strlen(s1) 
   for (j = 0; s2[j] != '\0'; ++j, ++length) {
     s1[length] = s2[j];
   }
